@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="stats2"> TU PUNTUACION FUE: </div> 
+        <div id="wrappery">
+        <div id ="finalizado"> 
+            <a class="buttonb" href="prueba.html">Regresar</a>
+        </div>
+        <script src="scrip.js"></script>
+        <script>
+            // Recuperar la puntuación máxima del almacenamiento local
+            var maxPuntuacion = localStorage.getItem('puntuacion');
+            
+            // Actualizar el contenido del elemento con la puntuación máxima
+            document.getElementById('stats2').textContent = "TU PUNTUACION MÁXIMA ES: " + maxPuntuacion;
+        </script>
+        
+    </body>
+
+</html>

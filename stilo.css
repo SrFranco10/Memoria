@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #050000;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinea el contenido en la parte superior */
+    align-items: center;
+    height: 100vh;
+}
+.boton-jugar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px; /* Añade un margen alrededor de los botones */
+}
+
+.boton-jugar:hover {
+    background-color: #45a049;
+}
+.boton-jugar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px; /* Ajusta el padding para hacer el enlace más grande */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none; /* Quita el subrayado del enlace */
+    font-size: 20px; /* Ajusta el tamaño del texto */
+}
+.boton-jugar {
+    position: absolute;
+    color: white;
+    top: 48%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
+
+.boton-puntuacion {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px; /* Ajusta el padding para hacer el enlace más grande */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none; /* Quita el subrayado del enlace */
+    font-size: 18px; /* Ajusta el tamaño del texto */
+}
+.boton-puntuacion {
+    position: absolute;
+    color: white;
+    top: 86%;
+    left: 18.5%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.boton-puntuacion:hover {
+    background-color: #45a049;
+}
+.boton-jugar {
+    background-color: #4CAF50;
+}
+
+.boton-jugar:hover {
+    background-color: #45a049;
+}
+
+.boton-puntuacion {
+    background-color: #45a049;
+}
+
+.boton-puntuacion:hover {
+    background-color: #45a049;
+}
+

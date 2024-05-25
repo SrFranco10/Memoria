@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id = "mejoresp">  </div>
+    <div id="stas" ></div>
+    <script src="scrip.js"></script>
+    <script>
+      // Recuperar la puntuación máxima del almacenamiento local
+      let score = JSON.parse (localStorage.getItem('record'));
+            
+            // Actualizar el contenido del elemento con la puntuación máxima
+          let lista = document.getElementById('stas');
+         
+    if (lista){
+        lista.innerHTML = score.map((score, index)=> `<div>${index + 1}. ${score}</div>`).join('');
+    }
+    </script>
+    
+</body>
+</html>
